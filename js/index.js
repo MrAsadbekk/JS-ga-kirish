@@ -34,22 +34,37 @@ const x = 500;
 const y = 250;
 const z = 120;
 
-console.log(
-  "Borish-kelish samaliyot bilete " + x + " $ = " + x * 11000 + " so'm"
-);
-console.log("Mexmonxona to'lovi " + y + " $ = " + y * 11000 + " so'm");
-console.log(
-  "Muzey va ko'ngil ochar joylar uchun to'lov " +
-    z +
-    " yevro = " +
-    z * 12000 +
-    " so'm"
-);
-console.log("jami xarajatlar " + (x * 11000 + y * 11000 + z * 12000) + " so'm");
-
 if (s >= x * 11000 + y * 11000 + z * 12000) {
+  console.log(
+    "Borish-kelish samaliyot bilete " + x + " $ = " + x * 11000 + " so'm"
+  );
+  console.log("Mexmonxona to'lovi " + y + " $ = " + y * 11000 + " so'm");
+  console.log(
+    "Muzey va ko'ngil ochar joylar uchun to'lov " +
+      z +
+      " yevro = " +
+      z * 12000 +
+      " so'm"
+  );
+  console.log(
+    "jami xarajatlar " + (x * 11000 + y * 11000 + z * 12000) + " so'm"
+  );
   console.log("Oq yo'l Alisher");
 } else if (s > 0) {
+  console.log(
+    "Borish-kelish samaliyot bilete " + x + " $ = " + x * 11000 + " so'm"
+  );
+  console.log("Mexmonxona to'lovi " + y + " $ = " + y * 11000 + " so'm");
+  console.log(
+    "Muzey va ko'ngil ochar joylar uchun to'lov " +
+      z +
+      " yevro = " +
+      z * 12000 +
+      " so'm"
+  );
+  console.log(
+    "jami xarajatlar " + (x * 11000 + y * 11000 + z * 12000) + " so'm"
+  );
   console.log("Alisher, ozgina sabr qilish kerak bo’lar ekan");
 } else {
   console.log("siz pul miqdorini kiritmadingiz");
